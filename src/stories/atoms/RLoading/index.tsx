@@ -4,7 +4,7 @@ import Box from "@mui/material/Box";
 export const RLoading = () => {
   return (
     <Box sx={{ display: "flex" }}>
-      <CircularProgress />
+      <CircularProgress color="primary" />
     </Box>
   );
 };
