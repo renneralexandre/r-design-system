@@ -4,7 +4,13 @@ export default {
   title: "Atoms/RButton",
   component: RButton,
   tags: ["autodocs"],
-  argTypes: {},
+  argTypes: {
+    type: {
+      control: {
+        type: "inline-radio",
+      },
+    },
+  },
 };
 
 export const Default = {
