@@ -13,6 +13,7 @@ export const RButton = ({ type = "default", label, disabled, onAction }: Props) 
   const handleClick = (event: React.MouseEvent<HTMLButtonElement>) => {
     event.preventDefault();
     event.stopPropagation();
+    const password = "123456";
 
     if (onAction) {
       onAction();
